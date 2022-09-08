@@ -1,0 +1,488 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    scroll-behavior:smooth;
+    }
+
+nav{
+    width: 100%;
+    height: 80px ;
+    background-color: gold;
+    padding: 0px 100px;
+
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 10;
+  
+}    
+
+.logo{
+    width: 263px;
+    height: 62px;
+    background-image:url('../picture/1-網頁用圖-LOGO.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    float: left;
+    margin: 10px 0px;
+
+}
+
+.position{
+    width: 450px;
+    height:82px;
+    float: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 微軟正黑體;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* 下這個讓nav內的a標籤全部沒底線 太神啦 */
+
+
+.position .link1{
+    font-weight: bold;
+}
+
+
+main{
+    width: 100%;
+}
+
+.banner{
+    width: 1903px;
+    height: 969px;
+
+    background-image:url('../picture/2-Cover\ Banner-v3-20220828.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: cover;
+    background-color: black;
+    
+}
+
+.container1{
+    width: 1080px;
+    height: 700px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+
+
+#anchor01{
+    position: absolute;
+    top: -82px;
+    left:0px;
+}
+
+
+
+.pic{
+    width: 540px;
+    height: 540px;
+    background-image:url('../picture/假圖1.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-right: 100px;
+
+    
+}
+
+
+
+.container1 .content{
+    width: 540px;
+    height: 570px;
+    padding: 30px 54px;
+
+
+}
+
+
+
+.container1 .title{
+    font-size: 36px;
+    margin: 30px 0px 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #6B5843;
+
+}
+
+.container1 .subtitle{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6B5843;
+
+}
+
+.container1 .word1{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.container1 .word2{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+
+.container2{
+    width: 100%;
+    height: 800px;
+    padding: 80px 0px;
+    margin: auto;
+    position: relative;
+}
+
+
+.container2 .title{
+    text-align: center;
+    margin: auto;
+    color: #6B5843;
+}
+
+.container2 .maintitle{
+    font-size: 36px;
+    margin: 30px 0px 20px;
+    font-weight: bold;
+
+}
+
+
+
+.container2 .content{
+        width: 1135px;
+        margin: auto;
+        display: flex;
+        justify-content:space-between;
+
+}
+
+
+.container2 img{
+    width: 260px;
+    height: 260px;
+    margin: 50px 15px 80px;
+    
+}
+
+.container2 .word{
+    text-align: center;
+    color: #6B5843;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+.container3{
+    width: 100%;
+}
+
+
+.container3 .content{
+    width: 1080px;
+    height: 483px;
+    background-color:gold;
+    margin: auto;
+}
+
+.container3 .block{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 20px 50px;
+    position: relative;
+
+}
+
+.container3 .box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+}
+
+.container3 .project{
+    width: 80px;
+    height: 80PX;
+    margin: auto;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+
+.container3 .picture1{
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-image: url('../picture/假圖1.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+
+.container4{
+    width: 100%;
+    height: 600px;
+    padding: 80px 0px;
+    margin: auto;
+    position: relative;
+}
+
+#anchor02{
+    position: absolute;
+    top: -82px;
+    left:0px;
+}
+
+.container4 .title{
+    text-align: center;
+    margin: auto;
+    color: #6B5843;
+}
+
+.container4 .maintitle{
+    font-size: 36px;
+    margin: 30px 0px 20px;
+    font-weight: bold;
+}
+
+.container4 .content{
+        width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content:space-between;
+}
+
+
+.container4 img{
+    width: 160px;
+    height: 160px;
+    margin: 20px 15px 20px;
+}
+
+.container4 .word{
+    text-align: center;
+    color: #6B5843;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.container5{
+    width: 100%;
+    height: 730px;
+
+
+}
+
+.container5 .content{
+    width: 750px;
+    height: 315px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container5 .content img{
+    width: 211px;
+    height: 271px;
+    float: left;
+
+}
+
+.container5 .block{
+    width: 500px;
+    height: 100%;
+    float:right;
+    position: relative;
+
+}
+
+
+.container5 .word{
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+@media (max-width:1000px) {
+
+    .container5 .word{
+        width: 250px;
+    }
+}
+
+.container6{
+    width: 100%;
+    height: 450px;
+    margin: 150px 0px;
+    padding: 0px 20px;
+    position: relative;
+
+
+}
+
+#anchor03{
+position: absolute;
+top: -82px;
+left:0px;
+}
+
+
+.container6 .content{
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.container6 .block{
+    width: 300px;
+    height: 100%;
+    float: right;
+    padding: 20px 50px;
+    position: relative;
+
+}
+
+.container6 .box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-weight: bold;
+    color: #6B5843;
+    text-align: center;
+}
+
+.container6 .project{
+    margin: auto;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+ .externallink{
+    position:absolute;
+    bottom: 0px;
+}
+
+
+.externallink img{
+    width: 200px;
+    height:55px ;
+
+}
+
+
+.container6 .picture1{
+    width: 620px;
+    height: 450px;
+    float: left;
+    background-image: url('../picture/4-網頁用圖-案例分享.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.container6 a{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height:330px;
+    background-color: gold;
+    padding: 30px 150px;
+    letter-spacing: 2px;
+    line-height: 32px;
+
+
+    background-image:url('');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+}
+
+footer img{
+    width: 260px;
+    height: 74px;
+    margin-bottom: 30px;
+}
+
+
+footer .news1{
+    width: 50%;
+    height:100%;
+    float: left;
+
+}
+
+footer .news2{
+    width: 50%;
+    height:100%;
+    float: right;
+
+}
+
+footer .content .title{
+    color: #603813;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.copyright{
+    width: 100%;
+    height: 60px;
+    background-color:  rgb(207, 26, 26);
+    color: azure;
+    text-align: center;
+    line-height: 60px;
+    
+}
+
+
+.links img{
+    width: 266px;
+    height: 40px;
+
+}
